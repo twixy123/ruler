@@ -21,9 +21,9 @@
     }
 </style>
 
-<div class="block">
-    <div class="ruler"></div>
-</div>
+&lt;div class="block"&gt;
+    &lt;div class="ruler"&gt;&lt;/div&gt;
+&lt;/div&gt;
 </pre>
 
            - ruler.js - 
@@ -51,9 +51,9 @@ const ruler = new RULER({
     }
 </style>
 
-<div class="block">
-    <div class="ruler"></div>
-</div>
+&lt;div class="block"&gt;
+    &lt;div class="ruler"&gt;&lt;/div&gt;
+&lt;/div&gt;
 </pre>
 
            - ruler.js - 
