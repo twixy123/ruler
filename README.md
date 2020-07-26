@@ -22,13 +22,14 @@
 </style>
 
 &lt;div class="block"&gt;
-    &lt;div class="ruler"&gt;&lt;/div&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ruler"&gt;&lt;/div&gt;
 &lt;/div&gt;
 </pre>
 
            - ruler.js - 
 "Не нужный вам код"...
            
+<pre>
 const ruler = new RULER({
     ruler: '.ruler',
     top: true,
@@ -38,6 +39,7 @@ const ruler = new RULER({
     rulerBackgroundColor: 'black',
     lineColor: 'white',
 })
+</pre>
 
 
 !!!!Пример для использования в вертикальном положения и что бы полосы были прижаты к левой стороне блока ruler :
@@ -52,13 +54,14 @@ const ruler = new RULER({
 </style>
 
 &lt;div class="block"&gt;
-    &lt;div class="ruler"&gt;&lt;/div&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ruler"&gt;&lt;/div&gt;
 &lt;/div&gt;
 </pre>
 
            - ruler.js - 
 "Не нужный вам код"...
            
+<pre>
 const ruler = new RULER({
     ruler: '.ruler',
     top: false,
@@ -68,3 +71,4 @@ const ruler = new RULER({
     rulerBackgroundColor: 'black',
     lineColor: 'white',
 })
+</pre>
