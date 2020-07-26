@@ -13,6 +13,7 @@
 
 !!!!Пример для использования в горизонтальном положения и что бы полосы были прижаты к низу блока ruller :
            - HTML -  
+ <pre>
  <style>
     .block{
         height: 10px;
@@ -23,6 +24,7 @@
 <div class="block">
     <div class="ruler"></div>
 </div>
+</pre>
 
            - ruler.js - 
 "Не нужный вам код"...
@@ -41,6 +43,7 @@ const ruler = new RULER({
 !!!!Пример для использования в вертикальном положения и что бы полосы были прижаты к левой стороне блока ruler :
 
            - HTML -  
+ <pre>
  <style>
     .block{
         height: 100vh;
@@ -51,6 +54,7 @@ const ruler = new RULER({
 <div class="block">
     <div class="ruler"></div>
 </div>
+</pre>
 
            - ruler.js - 
 "Не нужный вам код"...
