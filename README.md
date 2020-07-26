@@ -12,8 +12,11 @@
   цвет полос в ключе lineColor.
 
 !!!!Пример для использования в горизонтальном положения и что бы полосы были прижаты к низу блока ruller :
-           - HTML -  
+
  <pre>
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- HTML -  
+
  <style>
     .block{
         height: 10px;
@@ -24,12 +27,11 @@
 &lt;div class="block"&gt;
     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ruler"&gt;&lt;/div&gt;
 &lt;/div&gt;
-</pre>
 
-           - ruler.js - 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- ruler.js - 
+
 "Не нужный вам код"...
            
-<pre>
 const ruler = new RULER({
     ruler: '.ruler',
     top: true,
@@ -44,8 +46,10 @@ const ruler = new RULER({
 
 !!!!Пример для использования в вертикальном положения и что бы полосы были прижаты к левой стороне блока ruler :
 
-           - HTML -  
  <pre>
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- HTML -  
+
  <style>
     .block{
         height: 100vh;
@@ -56,12 +60,11 @@ const ruler = new RULER({
 &lt;div class="block"&gt;
     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ruler"&gt;&lt;/div&gt;
 &lt;/div&gt;
-</pre>
 
-           - ruler.js - 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- ruler.js - 
+
 "Не нужный вам код"...
-           
-<pre>
+       
 const ruler = new RULER({
     ruler: '.ruler',
     top: false,
